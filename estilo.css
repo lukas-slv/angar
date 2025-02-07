@@ -1,0 +1,51 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(228, 0, 0);
+}
+header.cabecalho{
+    background-color: rgb(241, 11, 11);
+   
+    color: rgb(255, 255, 255);
+    display : flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+ul{
+    display : flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+li{
+    
+    display : flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+main.principal{
+   text-align: center;
+   font-family:  'Times New Roman', Times, sans-serif ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
