@@ -63,9 +63,15 @@ div.div-principal{
 div.produto{  
     background-color: rgb(255, 255, 255);
     display: flex;
+    box-shadow: 10px 6px 20px 3px rgba(0, 0, 0, 0.384);
     justify-content: center;
     align-items: center;
     gap: 20px;
     width: 300px;
     height: 300px;
+    margin: 40px;
+    margin-top: 200px;
+    margin: 20px;
+    border-radius: 10px;	
+    padding: 20px;
 }
