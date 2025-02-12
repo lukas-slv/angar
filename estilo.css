@@ -9,13 +9,22 @@ body{
 }
 header.cabecalho{
     background-color: rgb(241, 11, 11);
-   
     color: rgb(255, 255, 255);
+    padding: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav.menu{
     display : flex;
     justify-content: end;
     align-items: center;
-    padding: 20px;
-    font-size: 20px;
+    justify-content: center;
+    
 }
 
 ul{
@@ -24,6 +33,9 @@ ul{
     align-items: center;
     list-style: none;
     gap: 20px;
+    padding-top: 20px;
+    margin-bottom: -20px;
+
 }
 li{
     
@@ -36,6 +48,12 @@ li{
 a{
     text-decoration: none;
     color: rgb(255, 255, 255);
+    
+}
+
+a:hover{
+    border-radius: 10px  rgb(255, 255, 255);
+
 }
 
 main.principal{
@@ -49,7 +67,6 @@ main.principal{
     padding: 20px;
     font-size: 20px;
 }
-
 div.div-principal{  
     background-color: rgb(255, 0, 21);
     display: flex;
@@ -58,7 +75,6 @@ div.div-principal{
     gap: 20px;
     width: 103%;
     height: 400px;
-
 }
 
 div.produto{  
