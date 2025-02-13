@@ -10,26 +10,54 @@ body{
 header.cabecalho{
     background-color: rgb(241, 11, 11);
     color: rgb(255, 255, 255);
-    padding: 40px;
+    padding-top: -40px;
+    padding-bottom: 60px;
+   
+    
     font-size: 20px;
     display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.redes{
+    text-align: end;
+    justify-content: end;
+    align-items:end;
+    padding-right: 100px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.fa-brands{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.fa-brands:hover{
+    transform: rotate(360deg);
+    background-color: rgb(255, 0, 21);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+
+}
+
+nav.menu{
+   text-align: center;
     justify-content: center;
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-nav.menu{
-    display : flex;
-    justify-content: end;
-    align-items: center;
-    justify-content: center;
-    
-}
 
 ul{
     display : flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     list-style: none;
     gap: 20px;
@@ -40,20 +68,36 @@ ul{
 li{
     
     display : flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     gap: 20px;
+} 
+
+li.login{
+    background-color: rgba(255, 255, 255, 0.747);
+    padding: 7px 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+ul>li>a.text-login{
+    color: rgb(245, 1, 1);
+}
+
+li.login:hover{
+    background-color: rgb(255, 255, 255);
 }
 
 a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     
+    
 }
 
-a:hover{
-    border-radius: 10px  rgb(255, 255, 255);
-
+li.active:hover{
+   border-bottom: solid 2px  rgb(255, 255, 255);
+   padding-bottom: 7px;
 }
 
 main.principal{
