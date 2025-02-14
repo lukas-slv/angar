@@ -9,11 +9,7 @@ body{
 }
 header.cabecalho{
     background-color: rgb(241, 11, 11);
-    color: rgb(255, 255, 255);
-    padding-top: -40px;
-    padding-bottom: 60px;
-   
-    
+    color: #ffffff;
     font-size: 20px;
     display: flex;
     justify-content: space-between;
@@ -22,11 +18,25 @@ header.cabecalho{
     flex-wrap: wrap;
 }
 
+.logo{
+    display: flex;
+    height: 80px;
+    width: 220px;
+    padding-top: 40px;
+    margin-left: 80px;
+    cursor: pointer;
+   
+   
+ 
+}
+
 .redes{
-    text-align: end;
-    justify-content: end;
-    align-items:end;
+    display: flex;
+    flex-direction: row-reverse ;
+    justify-content: space-between;
+    align-items: center;
     padding-right: 100px;
+    margin-top: -30px;
     gap: 20px;
     flex-wrap: wrap;
 }
@@ -40,18 +50,22 @@ header.cabecalho{
 }
 .fa-brands:hover{
     transform: rotate(360deg);
-    background-color: rgb(255, 0, 21);
     color: rgb(255, 255, 255);
     transition: 0.5s;
 
 }
 
 nav.menu{
-   text-align: center;
+    background-color: rgb(192, 19, 19);
+    display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
+    margin-top: -10px;
+    padding-bottom: 30px;
+    width: 100%; 
 }
 
 
@@ -61,7 +75,7 @@ ul{
     align-items: center;
     list-style: none;
     gap: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
     margin-bottom: -20px;
 
 }
@@ -86,6 +100,10 @@ ul>li>a.text-login{
 
 li.login:hover{
     background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    
 }
 
 a{
