@@ -1,8 +1,16 @@
 @charset "UTF-8";
+
 *{
     margin: 0px;
     padding: 0px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+  
+
+
+
+
 body{
     background-color: rgb(255, 255, 255);
     color: rgb(228, 0, 0);
@@ -46,14 +54,22 @@ header.cabecalho{
     padding: 10px;
     cursor: pointer;
     transition: 0.5s;
-
 }
 .fa-brands:hover{
-    transform: rotate(360deg);
-    color: rgb(255, 255, 255);
+    font-size: 21px;
     transition: 0.5s;
-
 }
+
+.fa-solid{
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+.fa-solid:hover{
+    font-size: 21px;
+    transition: 0.5s;
+}
+
 
 nav.menu{
     background-color: rgb(192, 19, 19);
@@ -69,7 +85,7 @@ nav.menu{
 }
 
 
-ul{
+ul.ul-menu{
     display : flex;
     justify-content: center;
     align-items: center;
@@ -79,8 +95,7 @@ ul{
     margin-bottom: -20px;
 
 }
-li{
-    
+li.active{
     display : flex;
     justify-content: center;
     align-items: center;
@@ -94,15 +109,17 @@ li.login{
     cursor: pointer;
     
 }
-ul>li>a.text-login{
-    color: rgb(245, 1, 1);
-}
-
 li.login:hover{
     background-color: rgb(255, 255, 255);
-    color: rgb(255, 0, 0);
     border-radius: 10px;
     cursor: pointer;
+
+    
+    
+}
+
+a.text-login{
+    color: rgb(192, 19, 19);
     
 }
 
@@ -139,18 +156,180 @@ div.div-principal{
     height: 400px;
 }
 
-div.produto{  
-    background-color: rgb(255, 255, 255);
+div.produto1{  
+    background-color: rgb(255, 254, 254);
+    background-image: url(img-prot/klipartz.com\ \(4\).png) ;
+    background-size: 220px;
+    background-position: top center;
+    background-repeat: no-repeat;
     display: flex;
     box-shadow: 10px 6px 20px 3px rgba(0, 0, 0, 0.384);
     justify-content: center;
-    align-items: center;
     gap: 20px;
     width: 300px;
     height: 300px;
-    margin: 40px;
-    margin-top: 200px;
-    margin: 20px;
+    margin: 10px;
     border-radius: 10px;	
-    padding: 20px;
+    padding: 13px;
+    align-items: flex-end;
+    flex-direction: row;
 }
+
+div.produto2{
+    background-color: rgb(255, 255, 255);
+    background-image: url(img-prot/klipartz.com\ \(3\).png) ;
+    background-size: 210px;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    box-shadow: 10px 6px 20px 3px rgba(0, 0, 0, 0.384);
+    justify-content: center;
+    gap: 20px;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;	
+    padding: 13px;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+div.produto3{  
+    background-color: rgb(255, 255, 255);
+    background-image: url(img-prot/klipartz.com\ \(6\).png);
+    background-size: 210px;
+    background-position:  top center ; 
+    background-repeat: no-repeat;
+    display: flex;
+    box-shadow: 10px 6px 20px 3px rgba(0, 0, 0, 0.384);
+    justify-content: center;
+    gap: 20px;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;	
+    padding: 13px;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.texto-produto{
+    
+   cursor: pointer;
+   font-size: 17px;
+   margin: 0px;
+   text-align: center;
+}
+
+
+
+h1{
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 800;
+}
+
+p.texto-principal{
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    margin: 0px 94px;
+
+}   
+
+.div-segundario{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.div-terciario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0px -55px;
+    width:560px;
+    height: 200px;
+}
+
+.texto-terciario{
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    margin: 0px 94px;
+    color: rgba(255, 0, 0, 0.836);
+    
+}
+
+hr{
+   border:none;
+   border-left: 1px solid rgba(255, 0, 0, 0.733);
+    width: 1px;
+    height: 100px;
+    margin: 0px 55px;
+   
+}
+
+.text-cadastro{
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    color: rgb(255, 153, 0);
+    text-decoration: underline;
+    
+}
+
+div.quarto{
+    background-image: url(img-prot/img-font.png);    
+    background-color: rgb(255, 0, 0);
+    background-size: 550px;
+    background-position:  left center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: top;
+    gap: 20px;
+    width:98.9vw;
+    height: 400px;
+}
+
+ .texto-quarto-h1{
+    display: flex;
+    justify-content: flex-end ;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 39px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: rgb(255, 196, 0);
+ }
+
+ .ul001{
+    display: flex;
+    gap: 20px;
+    margin: 0px 20px;
+    padding: 10px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);      
+ }
+
+ li.texto-quarto{
+     padding: 13px;
+    padding-left: 90px;
+    display: flex;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+ }
+
+ .a-quarto{
+    text-decoration: none;
+    color: rgb(255, 196, 0);    
+ }
+ 
+ .a-quarto:hover{
+    color: rgb(255, 230, 0);
+    text-decoration: underline;
+ }
