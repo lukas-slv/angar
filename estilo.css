@@ -82,7 +82,7 @@ nav.menu{
     margin-top: -10px;
     padding-bottom: 30px;
     width: 100%; 
-}
+} 
 
 
 ul.ul-menu{
@@ -103,7 +103,7 @@ li.active{
 } 
 
 li.login{
-    background-color: rgb(246, 157, 3);
+    background-color: rgb(255, 255, 255);
     padding: 7px 17px;
     border-radius: 10px;
     cursor: pointer;
@@ -113,25 +113,21 @@ li.login:hover{
     background-color: rgba(255, 255, 255, 0.87);
     border-radius: 10px;
     cursor: pointer;
-
-    
     
 }
 
 a.text-login{
     color: rgb(192, 19, 19);
-    
+
 }
 
 a{
     text-decoration: none;
-    color: rgb(246, 157, 3);
-    
-    
+    color: rgb(255, 255, 255);
 }
 
 li.active:hover{
-   border-bottom: solid 2px  rgb(246, 157, 3);
+   border-bottom: solid 2px  rgb(255, 255, 255);
    padding-bottom: 7px;
 }
 
