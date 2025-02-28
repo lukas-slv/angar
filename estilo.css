@@ -14,8 +14,10 @@
 body{
     background-color: rgb(255, 255, 255);
     color: rgb(228, 0, 0);
+  
 }
 header.cabecalho{
+    position: fixed;
     background-color: rgb(241, 11, 11);
     color: #ffffff;
     font-size: 20px;
@@ -24,6 +26,8 @@ header.cabecalho{
     flex-direction: column;
     gap: 20px;
     flex-wrap: wrap;
+    width: 100%;
+   
 }
 
 .logo{
@@ -34,8 +38,6 @@ header.cabecalho{
     margin-left: 80px;
     cursor: pointer;
    
-   
- 
 }
 
 .redes{
@@ -132,8 +134,9 @@ li.active:hover{
 }
 
 main.principal{
-   text-align: center;
-   font-family:  'Times New Roman', Times, sans-serif ;
+    padding-bottom: 1009px;
+    text-align: center;
+    font-family:  'Times New Roman', Times, sans-serif ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,6 +144,10 @@ main.principal{
     gap: 20px;
     padding: 20px;
     font-size: 20px;
+}
+.h1-principal{
+    margin-top: 200px;
+    font-size: 40px;
 }
 div.div-principal{  
     background-color: rgb(255, 0, 21);
