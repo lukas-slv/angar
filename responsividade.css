@@ -73,24 +73,41 @@
     div.div-principal{
       gap: 1px;
       width: 100wh;
-      height: 300px;
+      height: 250px;
     }
 
     div.produto1{
-       width: 100px;
-       height: 200px;
+       align-items: flex-start;
+       width: 99px;
+       height: 180px;
     }
-
+   
     div.produto2{
-       width: 100px;        
-       height: 200px;
+       align-items: flex-start;
+       width: 99px;   
+       height: 180px;
     }
 
     div.produto3{
-       width: 100px;
-       height: 200px;
+       align-items: flex-start;
+       width: 99px;
+       height: 180px;
     }
 
+    .img-produto001{
+      display: flex;
+      background-color: #474242;
+      margin-top: -13px;
+      padding-bottom: 29px;
+      padding-top: 9px;
+      border-radius: 7px 7px 0px 0px;
+      width: 125px;
+      height: 70px;
+   }
+  
+    .texto-produto{
+       display: none;
+    }
     div.quarto{
        display: flex;
        align-items:center;

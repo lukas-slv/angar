@@ -159,12 +159,17 @@ div.div-principal{
     height: 400px;
 }
 
+.img-produto001{
+    width: 130px;
+    height: 100px;
+    flex-direction: column-reverse;
+    
+   
+    
+}
+ 
 div.produto1{  
     background-color: rgb(255, 254, 254);
-    background-image: url(img-prot/prot-07.png);
-    background-size: 230px;
-    background-position: center;
-    background-repeat: no-repeat;
     display: flex;
     box-shadow: 10px 6px 20px 3px rgba(0, 0, 0, 0.384);
     justify-content: center;
@@ -178,23 +183,8 @@ div.produto1{
     flex-direction: row;
 }
 
-div.produto1:hover{
-    border: 4px solid rgb(255, 174, 0);
-}    
-div.produto2:hover{
-    border: 4px solid rgb(255, 174, 0);    
-}
- div.produto3:hover{
-    border: 4px solid rgb(255, 174, 0);         
-}
-
-
 div.produto2{
     background-color: rgb(255, 255, 255);
-    background-image: url(img-prot/prot-09.png );
-    background-size: 230px;
-    background-position: center center;
-    background-repeat: no-repeat;
     display: flex;
     box-shadow: 10px 6px 20px 3px rgba(0, 0, 0, 0.384);
     justify-content: center;
@@ -210,10 +200,6 @@ div.produto2{
 
 div.produto3{  
     background-color: rgb(255, 255, 255);
-    background-image: url(img-prot/prot-08.png);
-    background-size: 180px;
-    background-position:center ; 
-    background-repeat: no-repeat;
     display: flex;
     box-shadow: 10px 6px 20px 3px rgba(0, 0, 0, 0.384);
     justify-content: center;
@@ -225,16 +211,25 @@ div.produto3{
     padding: 13px;
     align-items: flex-end;
     flex-direction: row;
-}
+} 
 
 .texto-produto{
-    
    cursor: pointer;
    font-size: 17px;
    margin: 0px;
    text-align: center;
 }
 
+
+div.produto1:hover{
+    border: 4px solid rgb(255, 174, 0);
+}    
+div.produto2:hover{
+    border: 4px solid rgb(255, 174, 0);    
+}
+ div.produto3:hover{
+    border: 4px solid rgb(255, 174, 0);         
+}
 
 
 h1{
