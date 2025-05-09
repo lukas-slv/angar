@@ -76,12 +76,18 @@
       height: 250px;
     }
 
-    div.produto1{
-       align-items: flex-start;
-       width: 120px;
-       height: 180px;
-       margin-right:  30px;
-    }
+    div.produto1{  
+      background-color: rgb(255, 254, 254);
+      display: flex;
+      box-shadow: 10px 6px 20px 3px rgba(0, 0, 0, 0.384);
+      flex-direction: column-reverse;
+      justify-content: flex-end;
+      
+      width: 120px;
+      height: 180px;
+      margin-right:  30px;
+     
+     }
    
     div.produto2{
        align-items: flex-start;
@@ -99,7 +105,12 @@
 
     .img-produto001{
       display: flex;
-      background-color: #474242;
+      width: 120px;
+      height: 80px;
+   }
+   .img-produto002{  
+      display: flex;
+      
       margin-top: -13px;
       padding-bottom: 29px;
       padding-top: 9px;
@@ -107,9 +118,37 @@
       width: 230px;
       height: 70px;
    }
+
+   .img-produto003{
+      display: flex;
+      margin-top: -43px;
+      padding-bottom: 29px;
+      padding-top: 9px;
+      border-radius: 7px 7px 0px 0px;
+      width: 200px;
+      height: 120px;
+   }
+
     .texto-produto{
-       display: none;
+       display: inline;
+       font-size: 15px;
+       font-family: 'Mulish', sans-serif;
+      
+      
+       width: 100px;
+       height: 50px;
+       
+    
+       color: rgba(255, 0, 0, 0.836);
     }
+
+
+
+
+
+
+
+
     div.quarto{
        display: flex;
        align-items:center;
@@ -123,7 +162,6 @@
        width: 1059wh;
        height:300px;
     } 
-
     .div-quarto01{
        background-color: #242323cb;
        border-radius: 7px 7px ;
@@ -139,7 +177,6 @@
        flex-wrap: wrap;
        flex-direction: column;
     }
-
     h2{
        font-family: 'Mulish', sans-serif;
        font-weight: 800;
