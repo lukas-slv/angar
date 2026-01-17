@@ -1,9 +1,96 @@
 @charset "UTF-8";
+
 /* CSS Document */
-*{
-    margin: 0;
-    padding: 0;
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
 }
+
+/* Tablet Styles */
+@media screen and (max-width: 1024px) {
+  header.cabecalho {
+    height: 100px;
+  }
+
+  .logo {
+    height: 60px;
+    width: 150px;
+    margin-left: 50px;
+  }
+
+  .redes {
+    padding-right: 50px;
+  }
+
+  nav.menu {
+    margin-top: -5px;
+  }
+
+  ul.ul-menu {
+    gap: 15px;
+  }
+
+  main.principal {
+    padding: 15px;
+  }
+
+  .h1-principal {
+    font-size: 35px;
+  }
+
+  div.div-principal {
+    width: 95%;
+    height: 350px;
+  }
+
+  div.produto1,
+  div.produto2,
+  div.produto3 {
+    width: 250px;
+    height: 250px;
+  }
+
+  .img-produto001 {
+    width: 120px;
+    height: 80px;
+  }
+
+  .div-segundario {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .div-terciario {
+    width: 100%;
+    height: 150px;
+  }
+
+  div.quarto {
+    height: 350px;
+  }
+
+  .div-final {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .div-final-1 {
+    width: 100%;
+    height: 120px;
+  }
+
+  .fim002,
+  .fim003 {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+}
+
+/* Mobile Styles */
 @media screen and (max-width: 800px) {
 
     
