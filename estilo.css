@@ -345,10 +345,6 @@ li.texto-quarto {
   color: rgb(246, 157, 3);
 }
 
-.a-quarto:hover {
-  color: rgb(246, 157, 3);
-  text-decoration: underline;
-}
 
  .div-final{
     flex-wrap: wrap;
